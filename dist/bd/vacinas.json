@@ -1,0 +1,16 @@
+{
+    "Vacinas": [
+        {
+            "Nome": "Astrazeneca",
+            "Laboratorio": "Oxford"
+        },
+        {
+            "Nome": "CoronaVac",
+            "Laboratorio": "China"
+        },
+        {
+            "Nome": "PFizer",
+            "Laboratorio": "America"
+        }
+    ]
+}
