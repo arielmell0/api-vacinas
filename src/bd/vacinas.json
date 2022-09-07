@@ -1,16 +1,26 @@
 {
-    "Vacinas": [
+    "vacinas": [
         {
-            "Nome": "Astrazeneca",
-            "Laboratorio": "Oxford"
+            "nome": "AstraZeneca",
+            "laboratorio": "Oxford"
         },
         {
-            "Nome": "CoronaVac",
-            "Laboratorio": "China"
+            "nome": "Moderna mRNA-1273",
+            "laboratorio": "Moderna Biotech"
         },
         {
-            "Nome": "PFizer",
-            "Laboratorio": "America"
+            "nome": "Johnson & Johnson",
+            "laboratorio": " Janssen Farmacêutica"
+        },
+        {
+            "nome": "BioNTech",
+            "laboratorio": "Pfizer"
+        },
+        {
+            "nome": "Sinopharm",
+            "laboratorio": "Beijing Bio-Institute of Biological Products Co Ltd. && China National Biotec Group (CNBG)"
         }
-    ]
+    ],
+
+    "anotherKey": "randomValue"
 }
