@@ -1,4 +1,7 @@
 import { Router } from 'express';
-const routes = Router();
-routes.get('/', (req, res) => res.send('Página inicial'));
-export default routes;
+import { getVacinas } from './Controllers/vacinas.js';
+export const routes = Router();
+// home
+routes.get('/', (req, res) => res.status(200).json({ message: 'API at work!' }));
+// /vacinas
+routes.get('/vacinas', getVacinas);
